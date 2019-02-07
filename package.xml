@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FDK.package>
+    <properties>
+        <package_format.id>1</package_format.id>
+        <FDK.version>1.0.14.10002</FDK.version>
+        <download.url></download.url>
+        <download.authentication>true</download.authentication>
+        <checkSum>fd350d204113cb3102339fc5d90a76d1</checkSum>
+    </properties>
+    <name>LIS2MDL</name>
+    <version>1.0.0.0</version>
+    <vendor>ST_MICRO</vendor>
+    <arch>x86</arch>
+    <type>binary</type>
+    <category>sensors</category>
+    <description></description>
+    <resources>
+        <resource source="library\motion_magnetometer_3d_st_micro_lis2mdl" destination="library\motion_magnetometer_3d_st_micro_lis2mdl" type="folder" component="library" description="sensor desc place"/>
+    </resources>
+    <sensors bind="false">
+        <sensor sensorName="MOTION_MAGNETOMETER_3D_ST_MICRO_LIS2MDL" sensorTypeId="527" vendorId="1" modelId="282" modelName="LIS2MDL" flags="2" ISSVersion="5.0" objectType="Physical" buildNumber="5.0.10002.1" sensorCoreAPIVersion="1.0" friendlyName="LIS2MDL Magnetometer Sensor" initFunctionName="MOTION_MAGNETOMETER_3D_ST_MICRO_LIS2MDL_init"/>
+    </sensors>
+</FDK.package>
