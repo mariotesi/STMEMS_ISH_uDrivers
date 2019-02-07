@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FDK.package>
+    <properties>
+        <package_format.id>1</package_format.id>
+        <FDK.version>1.0.14.10002</FDK.version>
+        <download.url></download.url>
+        <download.authentication>true</download.authentication>
+        <checkSum>f9db6c6b17330339dc49a0cee1f5bdb3</checkSum>
+    </properties>
+    <name>LSM6DSL</name>
+    <version>1.0.0.0</version>
+    <vendor>ST_MICRO</vendor>
+    <arch>x86</arch>
+    <type>binary</type>
+    <category>sensors</category>
+    <description></description>
+    <resources>
+        <resource source="library\motion_accelerometer_3d_st_micro_lsm6dsl" destination="library\motion_accelerometer_3d_st_micro_lsm6dsl" type="folder" component="library" description="sensor desc place"/>
+        <resource source="library\motion_gyrometer_3d_st_micro_lsm6dsl" destination="library\motion_gyrometer_3d_st_micro_lsm6dsl" type="folder" component="library" description="sensor desc place"/>
+    </resources>
+    <sensors bind="false">
+        <sensor sensorName="MOTION_ACCELEROMETER_3D_ST_MICRO_LSM6DSL" sensorTypeId="115" vendorId="1" modelId="277" modelName="LSM6DSL" flags="2" ISSVersion="5.0" objectType="Physical" buildNumber="5.0.10002.1" sensorCoreAPIVersion="1.0" friendlyName="LSM6DSL Accelerometer Sensor" initFunctionName="MOTION_ACCELEROMETER_3D_ST_MICRO_LSM6DSL_init"/>
+        <sensor sensorName="MOTION_GYROMETER_3D_ST_MICRO_LSM6DSL" sensorTypeId="118" vendorId="1" modelId="277" modelName="LSM6DSL" flags="2" ISSVersion="5.0" objectType="Physical" buildNumber="5.0.10002.1" sensorCoreAPIVersion="1.0" friendlyName="LSM6DSL Gyrometer Sensor" initFunctionName="MOTION_GYROMETER_3D_ST_MICRO_LSM6DSL_init"/>
+    </sensors>
+</FDK.package>
