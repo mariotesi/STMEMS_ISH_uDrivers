@@ -5,7 +5,7 @@
         <FDK.version>1.0.14.10002</FDK.version>
         <download.url></download.url>
         <download.authentication>true</download.authentication>
-        <checkSum>f9db6c6b17330339dc49a0cee1f5bdb3</checkSum>
+        <checkSum>b214eec77f7df1375b4b0faa53f66151</checkSum>
     </properties>
     <name>LSM6DSL</name>
     <version>1.0.0.1</version>
