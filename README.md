@@ -5,6 +5,6 @@ In order to build the test please following this steps:
 
 make
 
-Added joy.yang@st.com to mailing lis
+Added joy.yang@st.com and mario.tesi@st.com to mailing list
 
 Copyright 2020
