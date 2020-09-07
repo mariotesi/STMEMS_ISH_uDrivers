@@ -11,6 +11,7 @@ int main(int argc, char *argv[])
 {
 	printf("Hello World !\n");
 	printf("and good bye.\n");
+	printf("Thanks!\n");
 
 	return 0;
 }
